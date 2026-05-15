@@ -20,6 +20,7 @@ Starter workspace for integrating Ollama with MCP-driven workflows, plus a simpl
 
 ## Documentation
 - `documentation/implementation-plan.md`
+- `documentation/architecture.md`
 - `documentation/SKILL.md`
 - `documentation/SKILL.agent.md`
 
