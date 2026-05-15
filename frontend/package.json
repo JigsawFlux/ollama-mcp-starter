@@ -1,0 +1,9 @@
+{
+  "name": "ollama-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Ollama integration",
+  "type": "module",
+  "scripts": {
+    "start": "python -m http.server 3000 --directory public"
+  }
+}

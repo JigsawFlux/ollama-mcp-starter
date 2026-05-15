@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ollama Chat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+
+      <header class="header">
+        <div class="header-inner">
+          <h1>Ollama Chat</h1>
+          <div class="health">
+            <span id="statusDot" class="status-dot"></span>
+            <span id="statusText">Checking…</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="conversation" id="conversation">
+        <div class="empty-state" id="emptyState">
+          <p>Ask anything to get started.</p>
+        </div>
+      </main>
+
+      <footer class="input-bar">
+        <div class="input-bar-inner">
+          <textarea
+            id="promptInput"
+            class="prompt-textarea"
+            placeholder="Type your message… (Enter to send, Shift+Enter for new line)"
+            rows="1"
+          ></textarea>
+          <button id="sendBtn" class="send-btn">Send</button>
+        </div>
+      </footer>
+
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
