@@ -36,7 +36,7 @@ if not exist logs mkdir logs
 
 echo [1/2] Starting backend server (also starts MCP server internally)...
 cd backend
-start "Backend Server" cmd /k "npm run dev 2>&1 | tee ..\logs\backend.log"
+start "Backend Server" cmd /k "npm run dev"
 cd ..
 timeout /t 3 /nobreak
 
